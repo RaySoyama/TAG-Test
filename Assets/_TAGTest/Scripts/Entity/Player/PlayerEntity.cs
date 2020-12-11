@@ -30,7 +30,7 @@ public class PlayerEntity : Entity
         //Since I don't really want to do the mental math of converting world space input into a isometric transform, I'm just gonna rotate the environment. (RIP Artists) 
         //FULL DISCALIMER: If I was working at a company I would do this in a heart beat, but I have like 3 other programming tests that are all due this week and I need to get this done.
 
-        rb.AddForce(direction * speed);
+        rb.AddForce(direction * speed * Time.deltaTime);
     }
 
     public override void LookAt(Vector3 direction)

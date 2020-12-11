@@ -52,7 +52,7 @@ MonoBehaviour:
   maxHealth: 4
   currentHealth: 4
   canMove: 1
-  speed: 15
+  speed: 1800
   canAttack: 1
   attackSpeed: 1
   useAI: 1

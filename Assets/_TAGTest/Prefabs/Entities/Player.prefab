@@ -51,11 +51,12 @@ MonoBehaviour:
   maxHealth: 30
   currentHealth: 30
   canMove: 1
-  speed: 10
+  speed: 1200
   canAttack: 1
   attackSpeed: 0.5
   rb: {fileID: 3028878209451465330}
   anim: {fileID: 674097487268265879}
+  menuManager: {fileID: 0}
   timeSinceLastAttack: -100
 --- !u!54 &3028878209451465330
 Rigidbody:
