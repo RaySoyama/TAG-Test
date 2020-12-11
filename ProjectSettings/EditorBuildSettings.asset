@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_TAGTest/_Scenes/Release/MainGame.unity
+    guid: 875156b587200414ea60e4a0dd043ff5
+  - enabled: 1
+    path: Assets/_TAGTest/_Scenes/_Development/RaysScenes/RayMovementTest.unity
+    guid: 13b867174279b9c44b4d02899f3ff5e4
+  m_configObjects: {}
